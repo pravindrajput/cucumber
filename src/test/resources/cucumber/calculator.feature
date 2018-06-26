@@ -3,7 +3,8 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-    @testEntityKey=BDD-TC-58,@requirementKey=BDD-RQ-29
+    @testEntityKey=BDD-TC-58
+    @requirementKey=BDD-RQ-29
     Scenario Outline: Add two numbers <num1> & <num2>
     Given I have a calculator
     When I add <num1> and <num2>
