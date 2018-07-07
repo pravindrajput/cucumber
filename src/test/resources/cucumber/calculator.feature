@@ -14,7 +14,7 @@ Feature: Calculator
     | 4 | 1 | 5 |
     | -1 | -2 | -3 |
 
-    @requirementKey=BDD-RQ-1
+    @requirementKey=BDD-RQ-4
     Scenario Outline: Substract two numbers 2
     Given I have a calculator
     When I Substract <num1> from <num2>
