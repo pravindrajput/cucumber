@@ -34,7 +34,6 @@ Feature: Calculator
     | num1 | num2 | result |
     | 3 | 6 | 18 |
     | 4 | 1 | 4 |
-    | -1 | 2 | -2 |
     
     @requirementKey=BDD-RQ-6
     Scenario Outline: Divide Two Number  <num1> & <num2>
