@@ -23,7 +23,6 @@ Feature: Calculator
     | num1 | num2 | result |
     | 3 | 6 | 3 |
     | 4 | 1 | -3 |
-    | -1 | 2 | 1 |
     
     @requirementKey=BDD-RQ-6
     Scenario Outline: Multiple Two Numbers <num1> & <num2>
